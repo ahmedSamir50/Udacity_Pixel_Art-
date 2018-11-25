@@ -1,0 +1,57 @@
+/* body text alignment */
+body {
+    text-align: center;
+}
+
+/* h1 Nodes / head title font size & family  & margins   */
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+/* h2  */
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+/* common prop in table and it's childs  */
+
+table,
+tr,
+td {
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+/*table border */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* table row hight and width*/
+
+tr {
+    height: 20px;
+    width: 200px;
+}
+
+/*TABLE DATA WIDTH*/
+
+td {
+    width: 20px;
+}
+
+/* INPUTS OF TYPE NUMBER : */
+
+input[type=number] {
+    width: 10em;
+}
